@@ -1,0 +1,50 @@
+.navbar {
+    background-color: #007bff; /* Blue color */
+    background: #001055;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  @media print{
+    .navbar{
+      display: none;
+    }
+  }
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-right {
+    display: flex;
+  }
+  
+  .navbar-icon {
+    font-size: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+    background-color: #f8871d;
+    color:#001055;
+    padding:10px;
+    border-radius: 50%;
+    border: 1px solid #f8871d;
+    color:white;
+    transition: 0.3s all ease;
+  }
+  
+  .navbar-icon:hover {
+    background-color: transparent;
+    color:#fff;
+    border-color: white;
+  }
+  .navbar .logo{
+    font-size: 28px;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+    
+  }

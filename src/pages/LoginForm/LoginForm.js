@@ -13,8 +13,8 @@ const LoginForm = ({ login }) => {
     e.preventDefault();
 
     // Check if username and password are correct
-    if (username === 'udit' && password === '123') {
-      login(); // Call the login function passed from the parent component
+    if (username === 'udit' && password === '1123') {
+      login(); 
       navigate('/update-cv');
     } else {
       setErrorMessage('Invalid email/password');

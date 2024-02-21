@@ -25,7 +25,7 @@ const Navbar = () => {
       {location.pathname === '/' && (
           <i className="fa-solid fa-download navbar-icon" onClick={handlePrint}></i>
         )}
-        <i class="fa-solid fa-pen-to-square navbar-icon" onClick={handleRedirect}></i>
+        <i className="fa-solid fa-pen-to-square navbar-icon" onClick={handleRedirect}></i>
       </div>
     </div>
   );

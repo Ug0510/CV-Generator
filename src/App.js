@@ -12,11 +12,10 @@ const App = () => {
 
   useEffect(() => {
 
-    if(localStorage.getItem('data') == null)
+    if(localStorage.getItem('CVData') == null)
     {
       fetchData();
     }
-
     // Check if the user is already logged in
     const loggedIn = localStorage.getItem('isLoggedIn') === 'true';
     setIsLoggedIn(loggedIn);
@@ -24,7 +23,7 @@ const App = () => {
     // Timer to automatically log out the user after 1 hour
     const logoutTimer = setTimeout(() => {
       logout();
-    }, 3600000); 
+    }, 180000); 
 
     return () => {
       clearTimeout(logoutTimer);

@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const fetchData = async () => {
     try {
@@ -9,7 +9,7 @@ const fetchData = async () => {
         const data = await response.json();
 
         // Store the parsed data in localStorage
-        localStorage.setItem('data', JSON.stringify(data));
+        localStorage.setItem('CVData', JSON.stringify(data));
     } catch (error) {
         console.error('Error fetching or parsing data:', error);
     }

@@ -1,13 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './CV.css';
-import fetchData from '../../utils/fetchData';
 
 function CV() {
     const [cvData, setCvData] = useState(null);
 
     useEffect(() => {
         // Fetch data from localStorage
-        const storedCvData = localStorage.getItem('data');
+        const storedCvData = localStorage.getItem('CVData');
         if (storedCvData) {
             setCvData(JSON.parse(storedCvData));
         } 

@@ -6,7 +6,7 @@ const AdminForm = () => {
     const [choosedSection, setChoosedSection] = useState('personalInfo');
 
     useEffect(() => {
-        const data = localStorage.getItem('data');
+        const data = localStorage.getItem('CVData');
         const parsedData = JSON.parse(data);
         setCvData(parsedData);
     }, []);
@@ -17,7 +17,7 @@ const AdminForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        localStorage.setItem('data', JSON.stringify(cvData));
+        localStorage.setItem('CVData', JSON.stringify(cvData));
         alert('Data saved successfully!');
         console.log(cvData);
     }
@@ -279,7 +279,7 @@ const AdminForm = () => {
                         value={achievementItem}
                         onChange={(e) => handleAchievementChange(index, e.target.value)}
                     />
-                    <button type="button" onClick={() => handleDeleteAchievement(index)}><i class="fa-solid fa-trash-can"></i></button>
+                    <button type="button" onClick={() => handleDeleteAchievement(index)}><i className="fa-solid fa-trash-can"></i></button>
                 </div>
             ))}
             <div className='button-container mt-4'>
@@ -303,7 +303,7 @@ const AdminForm = () => {
                         value={skillItem}
                         onChange={(e) => handleSkillChange(index, e.target.value)}
                     />
-                    <button type="button" onClick={() => handleDeleteSkill(index)}><i class="fa-solid fa-trash-can"></i></button>
+                    <button type="button" onClick={() => handleDeleteSkill(index)}><i className="fa-solid fa-trash-can"></i></button>
                 </div>
             ))}
             <div className='button-container mt-4'>

@@ -23,7 +23,7 @@ const App = () => {
     // Timer to automatically log out the user after 1 hour
     const logoutTimer = setTimeout(() => {
       logout();
-    }, 180000); 
+    }, 3600000); 
 
     return () => {
       clearTimeout(logoutTimer);

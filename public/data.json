@@ -1,0 +1,87 @@
+{
+    "personalInfo": {
+      "name": "Udit Gupta",
+      "email": "uditgg0510@gmail.com",
+      "phone": "+91-7817990855",
+      "linkedin": "linkedin.com/in/udit-gupta-ug0510/",
+      "github": "github.com/Ug0510"
+    },
+    "profile": "Devoted tech enthusiast with a strong background in building live projects and collaborating with clients, gained from freelancing and internships. Proficient in Full-stack website development and comfortable with Android development at an intermediate level. I have achieved multiple certificates regarding tech, and am skilled at working with a variety of technologies.",
+    "education": [
+      {
+        "institution": "Teerthanker Mahaveer University",
+        "degree": "B.Tech in Computer Science Engineering",
+        "date": "2020 - 2024 (pursuing)",
+        "details": [
+          "Relevant coursework: Data Structures & Algorithms, Software Engineering, Database Management Systems, Computer Networks, etc.",
+          "GPA: 3.8 (on a scale of 4.0)"
+        ]
+      },
+      {
+        "institution": "Springfields College",
+        "degree": "Intermediate (12th Grade)",
+        "date": "2020"
+      },
+      {
+        "institution": "Springfields College",
+        "degree": "High School",
+        "date": "2018"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Web Developer",
+        "company": "TMU",
+        "date": "Sep 2023 - present",
+        "details": [
+          "Collaborated with a dynamic team to craft modern, user-friendly UI designs for the university's new website and various college pages.",
+          "Wrote structured and optimized code to ensure SEO-friendly web development.",
+          "Spearheaded the development of an automation system using Python, revolutionizing manual tasks to dramatically boost efficiency and enhance overall productivity."
+        ]
+      },
+      {
+        "position": "Web Developer",
+        "company": "CS Council",
+        "date": "Jun 2023 - Aug 2023",
+        "details": [
+          "Completely redesigned the CS Council's website, creating a user-friendly and visually appealing interface that drove a 46% increase in user engagement and satisfaction.",
+          "Utilized graphic design expertise to create captivating course thumbnails and banners, contributing to a 20% boost in course sign-ups.",
+          "Managed Digital Marketing efforts, improving website traffic by 25% and implementing effective SEO strategies to enhance online visibility."
+        ]
+      },
+      {
+        "position": "Marketing Executive",
+        "company": "CS Council",
+        "date": "Dec 2022 - Jan 2023",
+        "details": [
+          "Conducted door-to-door marketing, gaining practical experience and enhancing interpersonal skills.",
+          "Achieved a remarkable 32% increase in admission rates through the implementation of effective strategies.",
+          "Consulted with various schools and colleges, collaborating with the staff to organize and execute successful promotional campaigns.",
+          "Led a team of 10+ individuals, providing guidance and direction to ensure successful outcomes on various projects and initiatives."
+        ]
+      }
+    ],
+    "achievements": [
+      "Reached the final round of the Technovation Hackathon with my team.",
+      "B.Tech Gold Medalist.",
+      "5 Star Coder in Java at HackerRank.",
+      "Won Mr. Handsome Title (2021) at TMU.",
+      "Yellow Belt in Martial Arts.",
+      "NPTEL Certifies with Silver +Elite.",
+      "Earned 15+ certificates.",
+      "Got opportunity to give seminars in schools about Cyber Security."
+    ],
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "UI/UX Designing",
+      "Java",
+      "Python",
+      "ReactJs",
+      "ExpressJs",
+      "MongoDB"
+    ]
+  }
+  

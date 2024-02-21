@@ -1,0 +1,174 @@
+.side-line{
+    border-right:1px solid #f8871d;
+   
+}
+body{
+    /* background: linear-gradient(-45deg,#00f2617b,#0576e674); */
+}
+.m-list{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style-type:none;
+    float: left;
+    padding-left: 0;
+}
+.m-list li{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: rgb(136, 136, 136);
+    font-size: 16px !important;
+}
+.m-list li:hover{
+    color:#f8871d;
+}
+.m-list li::before{
+    content: "▶";
+    display: inline-block;
+    margin-right: 5px;
+    color: rgb(255, 122, 0);
+    font-size: 0.7rem;
+    transform: translateY(-10%);
+}
+.m-list li.active{
+    color:#f8871d;
+    font-weight: 700;
+}
+.m-list .heading{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.m-formbox{
+    max-width: 60vw;
+    margin:auto;
+    /* background: linear-gradient(-45deg,#00f2852c,#05aae658); */
+    background-color: #001055;
+    color:white;
+    /* background: rgba(255, 255, 255, 0.2); */
+  /* filter: blur(5px);     */
+  /* backdrop-filter: blur(100px); */
+  border-radius: 10px;
+}
+
+.m-form {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.m-form *:not(i){
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.m-form div {
+    flex: 0 0 50%; /* Two columns in each row */
+    padding: 5px 20px;
+    box-sizing: border-box; 
+    margin-bottom: 30px;
+}
+
+.m-form label {
+    display: block;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.m-form input, .m-form textarea {
+    width: 90%; 
+    float: left;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border:none;
+    border-bottom: 1px solid #f8871d;
+    outline:none;
+    background-color: transparent;
+    color:white;
+    display:block
+}
+.m-form textarea{
+    background-color: rgba(255,255,255,0.2);
+    width:100%;
+    padding: 5px 10px;
+    height: 120px;
+}
+.m-form .button-container{
+    display: block;
+    flex:100%;
+}
+.m-form button{
+    border:none;
+    outline:none;
+    padding: 10px 50px;
+    font-size: 18px;
+    color:white;
+    background-color: #f8871d;
+    border-bottom:4px solid #663406;
+    border-right:2px solid #663406;
+    border-radius: 30px;
+    /* box-shadow: 2px 2px 5px 5px #bd620c; */
+}
+.m-form button:focus{
+    border-color:#001055;
+    transform:translate(1px,2px)
+}
+.m-form.reverse div{
+    flex: 0 0 100%;
+}
+
+.education-item,.experience-item {
+    margin-bottom: 20px;
+  }
+  
+  .education-item label,.experience-item label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .education-item input,.experience-item input {
+    width: 100%;
+    padding: 8px;
+    padding-left: 0;
+    margin-bottom: 10px;
+    border:none;
+    border-bottom: 1px solid #f8871d;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+@media screen and (max-width:480px) {
+    .m-formbox{
+        max-width: 90vw;
+    }
+    .m-form div {
+        flex: 0 0 100%; 
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    
+}
+
+.achievement-item,
+.skill-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.achievement-item input,
+.skill-item input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.achievement-item button,
+.skill-item button {
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.achievement-item button:hover,
+.skill-item button:hover {
+    background-color: darkred;
+}

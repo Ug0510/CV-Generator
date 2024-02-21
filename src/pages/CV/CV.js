@@ -4,20 +4,21 @@ import './CV.css';
 function CV() {
     const [cvData, setCvData] = useState(null);
 
+
     useEffect(() => {
         // Fetch data from localStorage
-        setTimeout(() => {
-            const storedCvData = localStorage.getItem('CVData');
+
+        const storedCvData = localStorage.getItem('CVData');
         if (storedCvData) {
             setCvData(JSON.parse(storedCvData));
-        } 
-        },5)
+
+        }
     }, [cvData]);
 
     return (
         <div className="A4 CV-body">
             <div className="sheet">
-                {cvData? (<div className="two-column resume">
+                {cvData ? (<div className="two-column resume">
                     <section className="resume__section resume__header">
                         <div className="resume__content">
                             <h1>{cvData?.personalInfo?.name}</h1>
@@ -110,7 +111,10 @@ function CV() {
                             </section>
                         </div>
                     </div>
-                </div>): (<p className='mt-3'>Loading CV Data...</p>)}
+                </div>) : (<p className='mt-3'>
+                    Kindly Refresh once..
+                </p>
+                )}
             </div>
         </div>
     );

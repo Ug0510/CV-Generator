@@ -144,6 +144,7 @@ body{
         margin-bottom: 10px;
     }
     
+    
 }
 
 .achievement-item,
@@ -171,4 +172,18 @@ body{
 .achievement-item button:hover,
 .skill-item button:hover {
     background-color: darkred;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    .m-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .m-list .heading{
+        flex:0 0 100%;
+    }
 }

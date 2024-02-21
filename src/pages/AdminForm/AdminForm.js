@@ -131,10 +131,10 @@ const AdminForm = () => {
     
 
     return (
-        <div className='container my-5'>
+        <div className='container my-2 my-lg-5'>
             <div className='row'>
                 <div className='col-lg-2 side-line '>
-                    <div className='d-flex py-5'>
+                    <div className='d-flex py-3 py-lg-5'>
                         <ul className='m-list'>
                             <span className='heading d-block mb-3'>Choose section</span>
                             {cvData && Object.keys(cvData).map((item) => (
@@ -146,7 +146,7 @@ const AdminForm = () => {
                 <div className='col-lg-10'>
                     {/* personalInfo form */}
                     {choosedSection === 'personalInfo' && (
-                        <div className='m-formbox my-5 text-center pt-5'>
+                        <div className='m-formbox my-2 my-lg-5 text-center pt-5'>
                             <h2>Edit Personal Information</h2>
                             <form onSubmit={handleSubmit} className='m-form mt-5 px-5'>
                                 {cvData && Object.keys(cvData.personalInfo).map((key) => (
@@ -169,7 +169,7 @@ const AdminForm = () => {
 
                     {/* profile form */}
                     {choosedSection === 'profile' && (
-                        <div className='m-formbox my-5 text-center pt-5'>
+                        <div className='m-formbox my-2 my-lg-5 text-center pt-5'>
                             <h2>Edit Profile</h2>
                             <form onSubmit={handleSubmit} className='m-form reverse mt-5 px-5'>
                                 {/* Profile form fields */}
@@ -191,7 +191,7 @@ const AdminForm = () => {
 
                     
 {choosedSection === 'education' && (
-    <div className='m-formbox my-5 text-center pt-5'>
+    <div className='m-formbox my-2 my-lg-5 text-center pt-5'>
         <h2>Edit Education</h2>
         <form onSubmit={handleSubmit} className='m-form reverse mt-5 px-5'>
             {/* Education form fields */}
@@ -230,7 +230,7 @@ const AdminForm = () => {
 
                    {/* experience form */}
 {choosedSection === 'experience' && (
-    <div className='m-formbox my-5 text-center pt-5'>
+    <div className='m-formbox my-2 my-lg-5 text-center pt-5'>
         <h2>Edit Experience</h2>
         <form onSubmit={handleSubmit} className='m-form mt-5 px-5'>
             {/* Experience form fields */}
@@ -268,7 +268,7 @@ const AdminForm = () => {
 
                    {/* achievements form */}
 {choosedSection === 'achievements' && (
-    <div className='m-formbox my-5 text-center pt-5'>
+    <div className='m-formbox my-2 my-lg-5 text-center pt-5'>
         <h2>Edit Achievements</h2>
         <form onSubmit={handleSubmit} className='m-form mt-5 px-5'>
             {/* Achievements form fields */}
@@ -292,7 +292,7 @@ const AdminForm = () => {
 
 {/* skills form */}
 {choosedSection === 'skills' && (
-    <div className='m-formbox my-5 text-center pt-5'>
+    <div className='m-formbox my-2 my-lg-5 text-center pt-5'>
         <h2>Edit Skills</h2>
         <form onSubmit={handleSubmit} className='m-form mt-5 px-5'>
             {/* Skills form fields */}

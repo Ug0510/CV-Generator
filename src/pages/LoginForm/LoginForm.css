@@ -49,3 +49,9 @@
     background-color: #bd620c;
   }
   
+
+  @media screen and (max-width:480px) {
+    .login-form-container{
+      max-width: 90vw;
+  }
+  }

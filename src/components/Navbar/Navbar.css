@@ -50,3 +50,17 @@
     letter-spacing: 4px;
     
   }
+
+  @media screen and (max-width:480px) {
+    .logo{
+      font-size: 22px;
+    }
+    .navbar{
+      display: flex;
+    }
+    .navbar-icon:first-child{
+      margin-left:0;
+      font-size: 18px;
+      padding:8px;
+    }
+  }

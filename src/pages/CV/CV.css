@@ -37,6 +37,7 @@
   ;
 }
 
+
 @media print {
   .CV-body {
     width: 100vw;
@@ -276,4 +277,16 @@
   text-wrap: wrap;
   flex-wrap: wrap;
 
+}
+@media screen and (max-width:480px) {
+  .CV-body{
+    width: 90vw;
+  }
+  .resume{
+    padding:0;
+  }
+  .resume .resume__main{
+    padding: 0;
+    width: 100%;
+  }
 }

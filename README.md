@@ -8,7 +8,7 @@ username: udit
 password: 1123
 
 #### Features :
-• Proper CV Structure
+• Proper CV Structure <br>
 • Download CV option
 • Admin Panel with secure login
 • Data Fetched from Local Storage
